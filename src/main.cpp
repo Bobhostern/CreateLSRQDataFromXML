@@ -58,11 +58,11 @@ int main(int argc, const char* argv[])
 			if(h.skipoverride().present())
 				odoc["skipoverride"] = bool(h.skipoverride().get());
 			if(h.answernumberinput().present())
-				odoc["answernumberinput"] = bool(h.answernumberinput());
+				odoc["answernumberinput"] = bool(h.answernumberinput().get());
 			if(h.skipisincorrect().present())
-				odoc["skipisincorrect"] = bool(h.skipisincorrect());
+				odoc["skipisincorrect"] = bool(h.skipisincorrect().get());
 			if(h.quizmode().present())
-				odoc["quizmode"] = bool(h.quizmode());
+				odoc["quizmode"] = bool(h.quizmode().get());
 
 			if(!doc->questions().present())
 			{
@@ -114,11 +114,11 @@ int main(int argc, const char* argv[])
 			if(h.skipoverride().present())
 				odoc["skipoverride"] = bool(h.skipoverride().get());
 			if(h.answernumberinput().present())
-				odoc["answernumberinput"] = bool(h.answernumberinput());
+				odoc["answernumberinput"] = bool(h.answernumberinput().get());
 			if(h.skipisincorrect().present())
-				odoc["skipisincorrect"] = bool(h.skipisincorrect());
+				odoc["skipisincorrect"] = bool(h.skipisincorrect().get());
 			if(h.quizmode().present())
-				odoc["quizmode"] = bool(h.quizmode());
+				odoc["quizmode"] = bool(h.quizmode().get());
 
 			if(!doc->questionsa().present())
 			{
